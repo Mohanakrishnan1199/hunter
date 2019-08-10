@@ -1,7 +1,7 @@
-n=int(input()) 
-m=list(map(int,input().split()[:n]))
-for i in m:
-  if m.count(i)==2:
+in=int(input()) 
+mo=list(map(int,input().split()[:in]))
+for i in mo:
+  if mo.count(i)==2:
     pass
   else:
     print(i)
