@@ -6,3 +6,5 @@ for i in m2:
     print(i)
     break
   m3.append(i)  
+else:
+  print("unique")
