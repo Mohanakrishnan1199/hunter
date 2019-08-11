@@ -19,10 +19,10 @@ for i in mo:
         k=mo.index(i)
         if k%2==0:
             if i%2!=0:
-                if h not in d:
-                    d.append(h)
+                if i not in d:
+                    d.append(i)
         else:
             if i%2==0:
-                if h not in d:
-                    d.append(h)
+                if i not in d:
+                    d.append(i)
 print(*d)
